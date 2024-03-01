@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
       
       // Altera a imagem com base no tipo de dispositivo
       if (isMobile) {
-        document.getElementById("dynamicImage").src = "https://i.imgur.com/lqaii.jpg"; // Imagem para dispositivos móveis
+        document.getElementById("dynamicImage").src = "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-1.jpg"; // Imagem para dispositivos móveis
       } else {
         document.getElementById("dynamicImage").src = "https://cdn.wallpapersafari.com/89/77/zVTcvh.jpg"; // Imagem para desktops
       }
