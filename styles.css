@@ -26,7 +26,7 @@ body {
 .logo img {
     position: relative;
     height: 80px;
-    right: -42%;
+    right: -43%;
 }
 
 .navbar-menu {
@@ -45,11 +45,13 @@ body {
 .menu-item {
     color: white;
     margin-top: 2%;
+    left: -35px;
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
     position: relative;
 }
+
 
 .submenu img {
     height: 45px;
