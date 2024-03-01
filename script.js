@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
         "https://cdn.wallpapersafari.com/89/77/zVTcvh.jpg",
-        "https://cdn.wallpapersafari.com/89/77/zVTcvh.jpg",
-        "https://pxwall.com/wp-content/uploads/2021/06/1920x1080-4k-Wallpaper.jpg"
+        "https://pxwall.com/wp-content/uploads/2021/06/1920x1080-4k-Wallpaper.jpg",
+        "imagem3.jpg"
         // Adicione mais URLs conforme necessário
     ];
   
@@ -47,4 +47,3 @@ document.addEventListener("DOMContentLoaded", function() {
     // Chama a função `changeImage` a cada 5 segundos
     setInterval(changeImage, 5000);
 });
-
