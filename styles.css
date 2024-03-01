@@ -26,7 +26,7 @@ body {
 .logo img {
     position: relative;
     height: 80px;
-    right: -43%;
+    right: -42%;
 }
 
 .navbar-menu {
@@ -45,7 +45,7 @@ body {
 .menu-item {
     color: white;
     margin-top: 2%;
-    left: -35px;
+    left: -10px;
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
