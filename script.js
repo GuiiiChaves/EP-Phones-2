@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (isMobile) {
         document.getElementById("dynamicImage").src = "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-1.jpg"; // Imagem para dispositivos móveis
       } else {
-        document.getElementById("dynamicImage").src = "https://images.wallpapersden.com/image/download/firewatch-4k-uhd_bWVuZ2qUmZqaraWkpJRmbmdlrWZlbWU.jpg"; // Imagem para desktops
+        document.getElementById("dynamicImage").src = "https://images.wallpapersden.com/image/download/4k-a-different-world_bWVqaG6UmZqaraWkpJRmbmdlrWZlbWU.jpg"; // Imagem para desktops
       }
     }
   
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
-        "https://i.pinimg.com/originals/a8/55/df/a855df51ab9b3b503221419fd614970f.png",
+        "https://images.wallpapersden.com/image/download/4k-a-different-world_bWVqaG6UmZqaraWkpJRmbmdlrWZlbWU.jpg",
         "https://images.wallpapersden.com/image/download/firewatch-4k-uhd_bWVuZ2qUmZqaraWkpJRmbmdlrWZlbWU.jpg",
         "https://s1.1zoom.me/b5050/194/Coast_Little_girls_Clouds_532086_1920x1080.jpg"
         // Adicione mais URLs conforme necessário
