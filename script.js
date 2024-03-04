@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (isMobile) {
         document.getElementById("dynamicImage").src = "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-1.jpg"; // Imagem para dispositivos móveis
       } else {
-        document.getElementById("dynamicImage").src = "https://cdn.wallpapersafari.com/89/77/zVTcvh.jpg"; // Imagem para desktops
+        document.getElementById("dynamicImage").src = "https://images.wallpapersden.com/image/download/firewatch-4k-uhd_bWVuZ2qUmZqaraWkpJRmbmdlrWZlbWU.jpg"; // Imagem para desktops
       }
     }
   
@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
-        "https://cdn.wallpapersafari.com/89/77/zVTcvh.jpg",
-        "https://pxwall.com/wp-content/uploads/2021/06/1920x1080-4k-Wallpaper.jpg",
-        "imagem3.jpg"
+        "https://i.pinimg.com/originals/a8/55/df/a855df51ab9b3b503221419fd614970f.png",
+        "https://images.wallpapersden.com/image/download/firewatch-4k-uhd_bWVuZ2qUmZqaraWkpJRmbmdlrWZlbWU.jpg",
+        "https://s1.1zoom.me/b5050/194/Coast_Little_girls_Clouds_532086_1920x1080.jpg"
         // Adicione mais URLs conforme necessário
     ];
   
@@ -46,4 +46,18 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Chama a função `changeImage` a cada 5 segundos
     setInterval(changeImage, 5000);
+});
+
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', function(e) {
+      e.preventDefault(); // Evita que o link redirecione
+
+      // Obtém o ID do destino do link
+      const targetId = this.getAttribute('href').substring(1);
+
+      // Rola para o elemento com o ID correspondente
+      document.getElementById(targetId).scrollIntoView({ 
+          behavior: 'smooth' 
+      });
+  });
 });
