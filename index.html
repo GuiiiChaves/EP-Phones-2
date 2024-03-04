@@ -1,59 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EP Phones</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- CSS personalizado -->
-    <style>
-        .megamenu {
-            position: static;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>EP Phones</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .megamenu {
+      position: static;
+    }
 
-        .megamenu .dropdown-menu {
-            width: 100%;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border: none;
-        }
+    .megamenu .dropdown-menu {
+      width: 100%;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border: none;
+    }
 
-        .megamenu .dropdown-menu .row {
-            display: flex;
-            flex-wrap: wrap;
-        }
+    .megamenu .dropdown-menu .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
 
-        .megamenu .dropdown-menu .col {
-            flex: 1;
-            padding: 0 10px;
-        }
+    .megamenu .dropdown-menu .col {
+      flex: 1;
+      padding: 0 10px;
+    }
 
-        .megamenu .dropdown-menu .col h6 {
-            margin-bottom: 10px;
-        }
+    .megamenu .dropdown-menu .col h6 {
+      margin-bottom: 10px;
+    }
 
-        .megamenu .dropdown-menu .col ul {
-            list-style: none;
-            padding: 0;
-        }
+    .megamenu .dropdown-menu .col ul {
+      list-style: none;
+      padding: 0;
+    }
 
-        .megamenu .dropdown-menu .col ul li {
-            margin-bottom: 5px;
-        }
-    </style>
+    .megamenu .dropdown-menu .col ul li {
+      margin-bottom: 5px;
+    }
+  </style>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="x"><img src="LOGO EP.jpg" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="x"><img src="img/LOGO EP.jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown megamenu">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             Produtos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -91,7 +97,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Ofertas especiais</a>
+          <a class="nav-link" href="#ofertas">Ofertas especiais</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Sobre</a>
@@ -105,27 +111,491 @@
 
 
 
-<section class="slideshow">
+  <section class="slideshow">
     <div class="slideshow-container">
-        <img id="dynamicImage" src
 
-            <img id="dynamicImage" src="https://cdn.wallpapersafari.com/89/77/zVTcvh.jpg" alt="Imagem 1">
-            <img id="dynamicImage" src="https://pxwall.com/wp-content/uploads/2021/06/1920x1080-4k-Wallpaper.jpg" alt="Imagem 2">
-            <img id="dynamicImage" src="imagem3.jpg" alt="Imagem 3">
-            <!-- Adicione mais imagens conforme necessário -->
+      <img id="dynamicImage" src="https://i.pinimg.com/originals/a8/55/df/a855df51ab9b3b503221419fd614970f.png"alt="Imagem 1">
+      <img id="dynamicImage" src="https://images.wallpapersden.com/image/download/firewatch-4k-uhd_bWVuZ2qUmZqaraWkpJRmbmdlrWZlbWU.jpg"alt="Imagem 2">
+      <img id="dynamicImage" src="https://s1.1zoom.me/b5050/194/Coast_Little_girls_Clouds_532086_1920x1080.jpg" alt="Imagem 3">
+      <!-- Adicione mais imagens conforme necessário -->
+    </div>
+  </section>
+  <style>
+    body {
+      font-family: "Open Sans", sans-serif;
+    }
+
+    h2 {
+      color: #000;
+      font-size: 26px;
+      font-weight: 300;
+      text-align: center;
+      text-transform: uppercase;
+      position: relative;
+      margin: 30px 0 80px;
+    }
+
+    h2 b {
+      color: #ffc000;
+    }
+
+    h2::after {
+      content: "";
+      width: 100px;
+      position: absolute;
+      margin: 0 auto;
+      height: 4px;
+      background: rgba(0, 0, 0, 0.2);
+      left: 0;
+      right: 0;
+      bottom: -20px;
+    }
+
+    .carousel {
+      margin: 50px auto;
+      padding: 0 70px;
+    }
+
+    .carousel .carousel-item {
+      min-height: 330px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .carousel .carousel-item .img-box {
+      height: 160px;
+      width: 100%;
+      position: relative;
+    }
+
+    .carousel .carousel-item img {
+      max-width: 100%;
+      max-height: 100%;
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+    }
+
+    .carousel .carousel-item h4 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .carousel .carousel-item .btn {
+      color: #333;
+      border-radius: 0;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: bold;
+      background: none;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      margin-top: 5px;
+      line-height: 16px;
+    }
+
+    .carousel .carousel-item .btn:hover,
+    .carousel .carousel-item .btn:focus {
+      color: #fff;
+      background: #000;
+      border-color: #000;
+      box-shadow: none;
+    }
+
+    .carousel .carousel-item .btn i {
+      font-size: 14px;
+      font-weight: bold;
+      margin-left: 5px;
+    }
+
+    .carousel .thumb-wrapper {
+      text-align: center;
+    }
+
+    .carousel .thumb-content {
+      padding: 15px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      height: 100px;
+      width: 40px;
+      background: none;
+      margin: auto 0;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .carousel-control-prev i,
+    .carousel-control-next i {
+      font-size: 30px;
+      position: absolute;
+      top: 50%;
+      display: inline-block;
+      margin: -16px 0 0 0;
+      z-index: 5;
+      left: 0;
+      right: 0;
+      color: rgba(0, 0, 0, 0.8);
+      text-shadow: none;
+      font-weight: bold;
+    }
+
+    .carousel-control-prev i {
+      margin-left: -3px;
+    }
+
+    .carousel-control-next i {
+      margin-right: -3px;
+    }
+
+    .carousel .item-price {
+      font-size: 13px;
+      padding: 2px 0;
+    }
+
+    .carousel .item-price strike {
+      color: #999;
+      margin-right: 5px;
+    }
+
+    .carousel .item-price span {
+      color: #86bd57;
+      font-size: 110%;
+    }
+
+    .carousel .carousel-indicators {
+      bottom: -50px;
+    }
+
+    .carousel-indicators li,
+    .carousel-indicators li.active {
+      width: 10px;
+      height: 10px;
+      margin: 4px;
+      border-radius: 50%;
+      border-color: transparent;
+      border: none;
+    }
+
+    .carousel-indicators li {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .carousel-indicators li.active {
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    .star-rating li {
+      padding: 0;
+    }
+
+    .star-rating i {
+      font-size: 14px;
+      color: #ffc000;
+    }
+  </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="ofertas">PRODUTOS EM <b>OFERTA</b></h2>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="img/15promax256.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>iPhone 15 Pro Max 256GB (Lacrado)</h4>
+                        <p class="item-price"><strike>R$7.100</strike> <span>R$6.799</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="img/15pro.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>iPhone 15 Pro 128GB (Lacrado)</h4>
+                        <p class="item-price"><strike>R$6.800</strike> <span>R$6.300</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="img/14promax256.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>iPhone 14 Pro Max 256GB (Lacrado)</h4>
+                        <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="img/14pro256.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>iPhone 14 Pro 256GB (Lacrado)</h4>
+                        <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="img/14lacrado128.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Sony Play Station</h4>
+                        <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="/examples/images/products/macbook-pro.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Macbook Pro</h4>
+                        <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="/examples/images/products/speaker.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Bose Speaker</h4>
+                        <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="/examples/images/products/galaxy.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Samsung Galaxy S8</h4>
+                        <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                        <div class="star-rating">
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="/examples/images/products/iphone.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Apple iPhone</h4>
+                        <p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="/examples/images/products/canon.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Canon DSLR</h4>
+                        <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="/examples/images/products/pixel.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Google Pixel</h4>
+                        <p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img src="/examples/images/products/watch.jpg" class="img-fluid" alt="">
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Apple Watch</h4>
+                        <p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
+                        <div class="star-rating">
+                          <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                          </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary">COMPRAR</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
         </div>
-    </section>
-    
+      </div>
+    </div>
 
-    
 
-    <!-- Conteúdo principal aqui -->
-
-    
-</body>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
-</html>
 
+</html>
