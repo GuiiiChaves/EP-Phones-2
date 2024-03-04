@@ -87,3 +87,12 @@
     }
 }
 
+footer {
+  background-color: whitesmoke;
+  color: gray;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
