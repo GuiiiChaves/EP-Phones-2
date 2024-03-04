@@ -1,30 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const menuItems = document.querySelectorAll('.menu-item');
-
-    menuItems.forEach(item => {
-        const dropdownMenu = item.nextElementSibling; // Move isso aqui para fora do loop para otimização
-
-        item.addEventListener('mouseenter', function() {
-            dropdownMenu.style.display = 'block';
-        });
-
-        // Adicione um evento ao dropdown menu para manter a exibição quando o mouse estiver nele
-        dropdownMenu.addEventListener('mouseenter', function() {
-            dropdownMenu.style.display = 'block';
-        });
-
-        // Adicione um evento ao dropdown menu para ocultá-lo quando o mouse sair
-        dropdownMenu.addEventListener('mouseleave', function() {
-            dropdownMenu.style.display = 'none';
-        });
-
-        // Adicione um evento ao item de menu para ocultar o dropdown menu quando o mouse sair
-        item.addEventListener('mouseleave', function() {
-            dropdownMenu.style.display = 'none';
-        });
-    });
-});
-
 document.addEventListener("DOMContentLoaded", function() {
     // Define a função para alterar a imagem com base no tipo de dispositivo
     function changeImageBasedOnDevice() {
