@@ -1,97 +1,128 @@
 .megamenu {
-    position: static;
-  }
-  
-  .megamenu .dropdown-menu {
-    background: none;
-    border: none;
-    width: 100%;
-  }
-  
-  body {
-    background: black;
-    background: black;
-    background: black;
-    min-height: 100vh;
-  }
+  position: static;
+}
 
-    img{
-    height: 70px;
-    width: 70px;
-  }
-  
-  code {
-    color: black;
-    background: black;
-    padding: 0.1rem 0.2rem;
-    border-radius: 0.2rem;
-  }
-  
-  .text-uppercase {
-    letter-spacing: 0.08em;
-  }
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+body {
+  background: black;
+  background: black;
+  background: black;
+  min-height: 100vh;
+}
+
+  img{
+  height: 70px;
+  width: 70px;
+}
+
+code {
+  color: black;
+  background: black;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.08em;
+}
 
 .slideshow {
-    width: 100%;
-    overflow: hidden;
+  position: relative;
+  max-width: 100%;
+  margin: auto;
 }
 
 .slideshow-container {
-    width: 300%;
-    display: flex;
-    transition: transform 0.5s ease;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow-container img {
+  width: 100%;
+  display: none;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto; /* Para centralizar horizontalmente */
+  text-align: center; /* Para centralizar os indicadores */
+  list-style: none;
+  padding: 0;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #888;
+  border-radius: 50%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.carousel-indicators li.active {
+  background-color: #000;
 }
 
 #dynamicImage {
-    margin-top: 0.15%;
-    width: 100%;
-    height: 550px;
+  margin-top: 0.15%;
+  width: 100%;
+  height: 550px;
 }
 
 .thumb-wrapper:hover{
-  transform: scale(1.1);
-  transition: 1s;
-  cursor: pointer;
+transform: scale(1.1);
+transition: 1s;
+cursor: pointer;
 
 }
 
 @media (max-width: 768px) {
-    /* CSS para telas menores que 768px (dispositivos móveis) */
-    .megamenu .dropdown-menu .container {
-        padding: 0; /* Remover o padding interno para economizar espaço */
-    }
+  /* CSS para telas menores que 768px (dispositivos móveis) */
+  .megamenu .dropdown-menu .container {
+      padding: 0; /* Remover o padding interno para economizar espaço */
+  }
 
-    .megamenu .dropdown-menu .col {
-        width: 50%; /* Faz cada coluna ocupar metade da largura */
-        padding: 0 5px; /* Adicionar espaçamento interno */
-    }
+  .megamenu .dropdown-menu .col {
+      width: 50%; /* Faz cada coluna ocupar metade da largura */
+      padding: 0 5px; /* Adicionar espaçamento interno */
+  }
 
-    .megamenu .dropdown-menu .banner {
-        display: none; /* Ocultar o banner em dispositivos móveis para economizar espaço */
-    }
+  .megamenu .dropdown-menu .banner {
+      display: none; /* Ocultar o banner em dispositivos móveis para economizar espaço */
+  }
 }
 
 @media (min-width: 768px) {
-    /* CSS para telas maiores ou iguais a 768px (tablets e desktops) */
-    .megamenu .dropdown-menu .container {
-        padding: 10px; /* Adicionar padding interno para melhor legibilidade */
-    }
+  /* CSS para telas maiores ou iguais a 768px (tablets e desktops) */
+  .megamenu .dropdown-menu .container {
+      padding: 10px; /* Adicionar padding interno para melhor legibilidade */
+  }
 
-    .megamenu .dropdown-menu .col {
-        width: auto; /* Restaurar a largura automática para as colunas */
-    }
+  .megamenu .dropdown-menu .col {
+      width: auto; /* Restaurar a largura automática para as colunas */
+  }
 
-    .megamenu .dropdown-menu .banner {
-        display: block; /* Exibir o banner em tablets e desktops */
-    }
+  .megamenu .dropdown-menu .banner {
+      display: block; /* Exibir o banner em tablets e desktops */
+  }
 }
 
 footer {
-  background-color: whitesmoke;
-  color: gray;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  bottom: 0;
+background-color: whitesmoke;
+color: gray;
+padding: 20px;
+text-align: center;
+width: 100%;
+position: relative;
+bottom: 0;
 }
