@@ -38,7 +38,6 @@
 
 .slideshow-container {
     width: 300%;
-    /* Número de imagens multiplicado pela largura da tela (100% * número de imagens) */
     display: flex;
     transition: transform 0.5s ease;
 }
