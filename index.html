@@ -5,50 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EP Phones</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- CSS personalizado -->
+    <style>
+        .megamenu {
+            position: static;
+        }
+
+        .megamenu .dropdown-menu {
+            width: 100%;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border: none;
+        }
+
+        .megamenu .dropdown-menu .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .megamenu .dropdown-menu .col {
+            flex: 1;
+            padding: 0 10px;
+        }
+
+        .megamenu .dropdown-menu .col h6 {
+            margin-bottom: 10px;
+        }
+
+        .megamenu .dropdown-menu .col ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .megamenu .dropdown-menu .col ul li {
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <img src="LOGO EP.jpg" alt="iPlace Logo">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="x"><img src="LOGO EP.jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown megamenu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Produtos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <h6>iPhones</h6>
+                  <ul>
+                    <li><a href="#">iPhone 15</a></li>
+                    <li><a href="#">iPhone 14</a></li>
+                    <li><a href="#">iPhone 13</a></li>
+                    <li><a href="#">Outros iPhones</a></li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h6>Outros Produtos</h6>
+                  <ul>
+                    <li><a href="#">SmartWatch</a></li>
+                    <li><a href="#">Apple Watch</a></li>
+                    <li><a href="#">Air Pods</a></li>
+                    <li><a href="#">Apple Vision Pro</a></li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h6>Acessórios</h6>
+                  <ul>
+                    <li><a href="#">Cabos</a></li>
+                    <li><a href="#">Capinhas</a></li>
+                    <li><a href="#">Películas</a></li>
+                    <li><a href="#">Outros</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <nav class="navbar">
-                <ul class="navbar-menu">
-                    <li><a href="#" class="menu-item">Produtos</a>
-                        <div class="dropdown-menu">
-                            <ul>
-                                <li class="submenu"><a href="#"><img src="13promax256.jpg" alt=""></a></li>
-                                <li class="submenu"><a href="#"><img src="13promax256.jpg" alt=""></a></li>
-                                <li class="submenu"><a href="#"><img src="13promax256.jpg" alt=""></a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#" class="menu-item">Ofertas</a>
-                        <div class="dropdown-menu">
-                            <ul>
-                                <li class="submenu"><a href="#"><img src="LOGO EP.jpg" alt=""></a></li>
-                                <li class="submenu"><a href="#"><img src="LOGO EP.jpg" alt=""></a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#" class="menu-item">Suporte</a>
-                        <div class="dropdown-menu">
-                            <ul>
-                                <li class="submenu"><a href="#"><img src="LOGO EP.jpg" alt=""></a></li>
-                                <li class="submenu"><a href="#"><img src="LOGO EP.jpg" alt=""></a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="submenu"><a href="#" class="menu-item">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ofertas especiais</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
 
-    <section class="slideshow">
-        <div class="slideshow-container">
+<section class="slideshow">
+    <div class="slideshow-container">
+        <img id="dynamicImage" src
+
             <img id="dynamicImage" src="https://cdn.wallpapersafari.com/89/77/zVTcvh.jpg" alt="Imagem 1">
             <img id="dynamicImage" src="https://pxwall.com/wp-content/uploads/2021/06/1920x1080-4k-Wallpaper.jpg" alt="Imagem 2">
             <img id="dynamicImage" src="imagem3.jpg" alt="Imagem 3">
@@ -61,8 +121,11 @@
 
     <!-- Conteúdo principal aqui -->
 
-
     
 </body>
-<script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </html>
+
