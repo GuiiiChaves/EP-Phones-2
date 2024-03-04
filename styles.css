@@ -48,3 +48,42 @@
     width: 100%;
     height: 550px;
 }
+
+.thumb-wrapper:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+
+}
+
+@media (max-width: 768px) {
+    /* CSS para telas menores que 768px (dispositivos móveis) */
+    .megamenu .dropdown-menu .container {
+        padding: 0; /* Remover o padding interno para economizar espaço */
+    }
+
+    .megamenu .dropdown-menu .col {
+        width: 50%; /* Faz cada coluna ocupar metade da largura */
+        padding: 0 5px; /* Adicionar espaçamento interno */
+    }
+
+    .megamenu .dropdown-menu .banner {
+        display: none; /* Ocultar o banner em dispositivos móveis para economizar espaço */
+    }
+}
+
+@media (min-width: 768px) {
+    /* CSS para telas maiores ou iguais a 768px (tablets e desktops) */
+    .megamenu .dropdown-menu .container {
+        padding: 10px; /* Adicionar padding interno para melhor legibilidade */
+    }
+
+    .megamenu .dropdown-menu .col {
+        width: auto; /* Restaurar a largura automática para as colunas */
+    }
+
+    .megamenu .dropdown-menu .banner {
+        display: block; /* Exibir o banner em tablets e desktops */
+    }
+}
+
