@@ -63,14 +63,14 @@ code {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background-color: white;
+  background-color: gray;
   border-radius: 50%;
   margin-right: 5px;
   cursor: pointer;
 }
 
 .carousel-indicators li.active {
-  background-color: white;
+  background-color: black;
 }
 
 #dynamicImage {
