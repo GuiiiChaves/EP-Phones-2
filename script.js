@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   
         // Define o URL da imagem com base no tipo de dispositivo
-        const imageUrl = isMobile ? "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-1.jpg" : "https://s1.1zoom.me/b5050/194/Coast_Little_girls_Clouds_532086_1920x1080.jpg";
+        const imageUrl = isMobile ? "img/1 ARTE SITE EP PHONES.png" : "img/1 ARTE SITE EP PHONES_.png";
   
         const dynamicImage = document.getElementById("dynamicImage");
   
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
-        "img/teste1.jpg",
+        "img/1 ARTE SITE EP PHONES_.png",
         "img/teste2.jpg",
         "img/imagem3.jpg"
         // Adicione mais URLs conforme necessário
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define uma lista de URLs das imagens para mobile
     const mobileImageUrls = [
         "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-1.jpg",
-        "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-27022024-mob-2.jpg",
+        "img/1 ARTE SITE EP PHONES.png",
         "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-4-ajuste.jpg"
         // Adicione mais URLs conforme necessário
     ];
