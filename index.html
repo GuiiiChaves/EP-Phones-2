@@ -112,7 +112,7 @@
   <section class="slideshow">
     <div class="slideshow-container">
   
-      <img id="dynamicImage" src="img/teste1.jpg" alt="Imagem 1">
+      <img id="dynamicImage" src="img/1 ARTE SITE EP PHONES_.png" alt="Imagem 1">
       <img id="dynamicImage" src="img/teste2.jpg" alt="Imagem 2">
       <img id="dynamicImage" src="img/teste3.jpg" alt="Imagem 3">
   
@@ -129,30 +129,45 @@
   <script>
 
 
-    document.addEventListener("DOMContentLoaded", function() {
-      var slides = document.querySelectorAll('.slideshow-container img');
-      var indicators = document.querySelectorAll('.carousel-indicators li');
-  
-      var slideIndex = 0;
-  
-      function showSlides() {
-        for (var i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (var i = 0; i < indicators.length; i++) {
-          indicators[i].classList.remove('active');
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-          slideIndex = 1;
-        }
-        slides[slideIndex - 1].style.display = "block";
-        indicators[slideIndex - 1].classList.add('active');
-        setTimeout(showSlides, 5000); // Change image every 2 seconds
-      }
-  
-      showSlides();
-    });
+document.addEventListener("DOMContentLoaded", function() {
+  var slides = document.querySelectorAll('.slideshow-container img');
+  var indicators = document.querySelectorAll('.carousel-indicators li');
+  var slideIndex = 0;
+
+  function showSlide(index) {
+    for (var i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (var i = 0; i < indicators.length; i++) {
+      indicators[i].classList.remove('active');
+    }
+
+    if (index >= slides.length) {
+      slideIndex = 0;
+    } else if (index < 0) {
+      slideIndex = slides.length - 1;
+    } else {
+      slideIndex = index;
+    }
+
+    slides[slideIndex].style.display = "block";
+    indicators[slideIndex].classList.add('active');
+  }
+
+  function nextSlide() {
+    showSlide(slideIndex + 1);
+  }
+
+  function prevSlide() {
+    showSlide(slideIndex - 1);
+  }
+
+  document.querySelector('.carousel-indicators').addEventListener('click', nextSlide);
+  document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
+
+  showSlide(slideIndex); // Mostra o slide inicial ao carregar a página
+});
+
   </script>
 
 
@@ -261,7 +276,7 @@
       width: 40px;
       background: none;
       margin: auto 0;
-      background: rgba(0, 0, 0, 0.2);
+      background: white;
     }
 
     .carousel-control-prev i,
@@ -274,7 +289,7 @@
       z-index: 5;
       left: 0;
       right: 0;
-      color: rgba(0, 0, 0, 0.8);
+      color: white;
       text-shadow: none;
       font-weight: bold;
     }
@@ -317,11 +332,11 @@
     }
 
     .carousel-indicators li {
-      background: rgba(0, 0, 0, 0.2);
+      background: gray;
     }
 
     .carousel-indicators li.active {
-      background: rgba(0, 0, 0, 0.6);
+      background: white;
     }
 
     .star-rating li {
