@@ -19,14 +19,14 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
         "img/1 ARTE SITE EP PHONES_.png",
-        "img/jblbannerpc",
+        "img/jblbannerpc.png",
         "img/imagem3.jpg"
         // Adicione mais URLs conforme necessário
     ];
   
     // Define uma lista de URLs das imagens para mobile
     const mobileImageUrls = [
-        "img/jblbannercel",
+        "img/jblbannercel.png",
         "img/1 ARTE SITE EP PHONES.png",
         "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-4-ajuste.jpg"
         // Adicione mais URLs conforme necessário
