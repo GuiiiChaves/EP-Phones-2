@@ -27,6 +27,11 @@ code {
   border-radius: 0.2rem;
 }
 
+.adendo{
+  font-size: 12px;
+  font-style: italic;
+}
+
 .text-uppercase {
   letter-spacing: 0.08em;
 }
