@@ -63,20 +63,20 @@ code {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background-color: gray;
+  background-color: white;
   border-radius: 50%;
   margin-right: 5px;
   cursor: pointer;
 }
 
 .carousel-indicators li.active {
-  background-color: black;
+  background-color: white;
 }
 
 #dynamicImage {
   margin-top: 0.15%;
   width: 100%;
-  height: 550px;
+  height: 650px;
 }
 
 .thumb-wrapper:hover{
