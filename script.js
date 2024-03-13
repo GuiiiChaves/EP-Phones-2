@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
         "img/1 ARTE SITE EP PHONES_.png",
-        "img/jblbannerpc.png",
+        "img/ARTE SITE EP PHONES 1 (1).png",
         "img/imagem3.jpg"
         // Adicione mais URLs conforme necessário
     ];
