@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const desktopImageUrls = [
         "img/1 ARTE SITE EP PHONES_.png",
         "img/ARTE SITE EP PHONES 1 (1).png",
-        "img/imagem3.jpg"
+        "img/ARTE SITE EP PHONES 2 n.png"
         // Adicione mais URLs conforme necessário
     ];
   
