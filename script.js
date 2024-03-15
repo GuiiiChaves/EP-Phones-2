@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const mobileImageUrls = [
         "img/bannercel.png",
         "img/1 ARTE SITE EP PHONES.png",
-        "img/091f9e5d-e821-46ca-b1f7-ff94244dc90b.jpg"
+        "img/ARTE SITE EP PHONES 2 (2).png"
         // Adicione mais URLs conforme necessário
     ];
   
