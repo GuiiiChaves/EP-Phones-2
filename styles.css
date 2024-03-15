@@ -27,7 +27,6 @@ img {
   position: absolute;
   right: 49%;
   top: 10%; /* Ajuste a posição conforme necessário */
-  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
