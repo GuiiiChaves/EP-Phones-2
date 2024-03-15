@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Define uma lista de URLs das imagens para mobile
     const mobileImageUrls = [
-        "img/bannercel2.png",
+        "img/bannercel.png",
         "img/1 ARTE SITE EP PHONES.png",
         "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-4-ajuste.jpg"
         // Adicione mais URLs conforme necessário
