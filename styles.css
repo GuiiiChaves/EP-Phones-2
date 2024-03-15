@@ -16,8 +16,8 @@ body {
 }
 
 img {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
 }
 
 .logo {
@@ -27,6 +27,7 @@ img {
   position: absolute;
   right: 49%;
   top: 10%; /* Ajuste a posição conforme necessário */
+  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
@@ -38,7 +39,7 @@ img {
   /* CSS para telas menores que 768px (dispositivos móveis) */
   .logo {
     right: 45%; /* Manter a centralização horizontal */
-    top: -5%; /* Ajuste a posição conforme necessário */
+    top: -0%; /* Ajuste a posição conforme necessário */
   }
 
   .megamenu .dropdown-menu .container {
