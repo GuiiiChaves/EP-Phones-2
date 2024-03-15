@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   
         // Define o URL da imagem com base no tipo de dispositivo
-        const imageUrl = isMobile ? "img/1 ARTE SITE EP PHONES.png" : "img/bannercel.png";
+        const imageUrl = isMobile ? "img/bannercel.png" : "img/ARTE SITE EP PHONES 2 n.png";
   
         const dynamicImage = document.getElementById("dynamicImage");
   
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const mobileImageUrls = [
         "img/bannercel.png",
         "img/1 ARTE SITE EP PHONES.png",
-        "https://www.iplace.com.br/file/general/iplaceb2c-home-cartaohoje-23022024-mob-4-ajuste.jpg"
+        "img/091f9e5d-e821-46ca-b1f7-ff94244dc90b.jpg"
         // Adicione mais URLs conforme necessário
     ];
   
