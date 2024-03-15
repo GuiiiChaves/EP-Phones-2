@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   
         // Define o URL da imagem com base no tipo de dispositivo
-        const imageUrl = isMobile ? "img/1 ARTE SITE EP PHONES.png" : "img/1 ARTE SITE EP PHONES_.png";
+        const imageUrl = isMobile ? "img/1 ARTE SITE EP PHONES.png" : "img/bannercel.png";
   
         const dynamicImage = document.getElementById("dynamicImage");
   
