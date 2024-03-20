@@ -18,16 +18,17 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
-        "img/artediferenciada.png",
+        "img/1 ARTE SITE EP PHONES_.png",
         "img/ARTE SITE EP PHONES 1 (1).png",
-        "img/ARTE SITE EP PHONES 2 n.png"
+        "img/ARTE SITE EP PHONES 2 n.png",
+        "img/artediferenciadapc.png
         // Adicione mais URLs conforme necessário
     ];
   
     // Define uma lista de URLs das imagens para mobile
     const mobileImageUrls = [
         "img/bannercel.png",
-        "img/1 ARTE SITE EP PHONES.png",
+        "img/img/artediferenciada.png",
         "img/ARTE SITE EP PHONES 2 (2).png"
         // Adicione mais URLs conforme necessário
     ];
