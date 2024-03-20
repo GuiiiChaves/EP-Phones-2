@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define uma lista de URLs das imagens para mobile
     const mobileImageUrls = [
         "img/bannercel.png",
-        "img/img/artediferenciada.png",
+        "img/artediferenciada.png",
         "img/ARTE SITE EP PHONES 2 (2).png"
         // Adicione mais URLs conforme necessário
     ];
