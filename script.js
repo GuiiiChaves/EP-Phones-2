@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   
         // Define o URL da imagem com base no tipo de dispositivo
-        const imageUrl = isMobile ? "img/bannercel.png" : "img/ARTE SITE EP PHONES 2 n.png";
+        const imageUrl = isMobile ? "img/bannercel.png" : "img/1 ARTE SITE EP PHONES_.png";
   
         const dynamicImage = document.getElementById("dynamicImage");
   
@@ -19,9 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
         "img/1 ARTE SITE EP PHONES_.png",
-        "img/ARTE SITE EP PHONES 1 (1).png",
-        "img/ARTE SITE EP PHONES 2 n.png",
-        "img/artediferenciadapc.png
+        "img/teste2.jpg",
+        "img/imagem3.jpg"
         // Adicione mais URLs conforme necessário
     ];
   
@@ -63,4 +62,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
   });
-
