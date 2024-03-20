@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Define uma lista de URLs das imagens para desktops
     const desktopImageUrls = [
-        "img/1 ARTE SITE EP PHONES_.png",
+        "img/artediferenciada.png",
         "img/ARTE SITE EP PHONES 1 (1).png",
         "img/ARTE SITE EP PHONES 2 n.png"
         // Adicione mais URLs conforme necessário
